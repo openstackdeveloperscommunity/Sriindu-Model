@@ -1,0 +1,73 @@
+body{
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+}
+    .login-box{
+width: 360px;
+height: 600px;
+background: rgba(0, 0, 0, 0.5);
+color: white;
+top: 50%;
+left: 50%;
+border-radius: 20px;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 5px 30px;
+}
+.login-box input{
+width: 100%;
+margin-bottom: 50px;
+color: white;
+}
+#rollno,#password,#fname,#lname
+{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+#button
+{
+border: none;
+outline: none;
+height: 40px;
+width: 280px;
+background: lightgreen;
+color: white;
+font-size: 18px;
+border-radius: 20px;
+}
+#button:hover
+{
+cursor: pointer;
+background: lightblue;
+color: white;
+}
+a{
+padding-left: 30%;
+text-decoration: none;
+color: white;
+}
+h1{
+padding-left: 60px;
+}
+p{
+padding-left: 20px;
+color: red;
+}
+::placeholder {
+color: white;
+opacity: 1;
+}
+h1{
+font-size: 50px;
+padding-left: 60px;
+}
+p{
+padding-left: 20px;
+color: red;
+}

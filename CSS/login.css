@@ -1,0 +1,80 @@
+body{
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+    color: white;
+}
+.login-box{
+    width: 320px;
+    height: auto;
+    color: black;
+    background:white;
+    top: 50%;
+    right: 0%;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.login-box input{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+#rollno,#password
+{
+   border-radius: 30px;
+   height: 40px;
+   border: none;
+   background: #d7d7d7;
+   text-align: center;
+
+}
+#button
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 20px;
+    margin-left: 23%;
+    background: lightgreen;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+#button:hover
+{
+    cursor: pointer;
+    background: lightblue;
+    color: white;
+}
+a{
+    padding-left: 30%;
+    text-decoration: none;
+    color: #dd4b40;
+}
+h1{
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+.signup p{
+    color: #aca3a3;
+}
+.signup{
+    padding-left: 70%;
+}
+.signup button{
+    border: none;
+    border-radius: 30px;
+    background: lightgreen;
+    height: 30px;
+    width: 90px;
+}
+#page{
+    color: red;
+    padding-left: 45px;
+}
